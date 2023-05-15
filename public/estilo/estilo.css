@@ -26,4 +26,15 @@ body {
   width:280px;
   opacity: 0.8;
   }
-  
+  #cadas{
+    display: grid;
+    font-size: xx-large;
+background-color: rgb(124, 159, 190);
+
+
+  }
+  #cadas  a{
+    background-color: rgb(165, 179, 190);
+    text-decoration: none;
+    border-radius: 20%;
+  }
