@@ -11,13 +11,15 @@
 <body>
     <div id='cadas'>
     <a href='/pessoas/criar'> Cadastrar</a>
-
+<div id='cadtrar'> 
     <% pessoas.forEach((pessoa) => { %>
-     <div>   <%= pessoa.nome %> </div>
-     <div><%= pessoa.id %> </div>
-
-     <button> <a href="/pessoas/deletar?id= <%= pessoa.id %>" >  Excluir </a></button>
-    <% }) %>
+        <div>   <%= pessoa.nome %> </div>
+        <div><%= pessoa.id %> </div>
+   
+        <button> <a href="/pessoas/deletar?id= <%= pessoa.id %>" >  Excluir </a></button>
+       <% }) %>
+</div> 
+  
 
 </div>
 
